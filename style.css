@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    /* padding: 24px; */
+    background: lightblue;
+
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 320px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0);
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0 0 1.5rem;
+    color: brown;
+}
+
+label {
+    font-size: 13px;
+    color: rgb(32, 31, 31);
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+input {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px 10px;
+    margin-bottom: 14px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.results {
+    border-top: 1px solid #d65757;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+}
+
+.result-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.result-row.total {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #d65757;
+}
+
+.value {
+    color: blue;
+}
